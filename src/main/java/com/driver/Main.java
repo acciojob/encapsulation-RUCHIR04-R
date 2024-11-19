@@ -5,7 +5,7 @@ public class Main {
         RWOnly rwOnly = new RWOnly();
         // rwOnly.name = "John";
         // System.out.println(RwOnly.name); 
-        //name has private accessin in 'com drive.RWOnly'y'
+        //name has private accessin in 'com drive.RWOnly'
         rwOnly.setName("John");
 
         System.out.println(rwOnly.getName());
