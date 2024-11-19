@@ -1,5 +1,15 @@
 package com.driver;
 
 public class Main {
-  
+   public static void main(String[] args) {
+        RWOnly rwOnly = new RWOnly();
+
+        
+        // obj.name = "John";
+        // System.out.println(obj.name); 
+        //name has private accessin in 'com drive.RWOnly'
+        rwOnly.setName("John");
+
+        System.out.println(rwOnly.getName());
+    }
 }
